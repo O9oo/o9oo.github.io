@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
@@ -86,7 +86,6 @@ h1, h2 { color: #ff4d6d; }
 <h1>ملاك</h1>
 
 <div class="infobox">
-  <img src="your-image.jpg" alt="صورة ملاك">
   <p><b>الاسم:</b> ملاك</p>
   <p><b>تاريخ البداية:</b> 28/12/2025</p>
 </div>
