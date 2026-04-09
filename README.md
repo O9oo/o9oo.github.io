@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>ملاك ❤️</title>
-
 <style>
 body {
   font-family: Arial;
@@ -11,7 +10,6 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-
 .header {
   background: #ff4d6d;
   color: white;
@@ -20,14 +18,12 @@ body {
   text-align: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-
 .content {
   padding: 30px;
   position: relative;
   z-index: 2;
   line-height: 1.8;
 }
-
 .infobox {
   float: left;
   width: 260px;
@@ -38,13 +34,17 @@ body {
   text-align: center;
   border-radius: 12px;
 }
-.infobox img {
-  width: 100%;
-  border-radius: 12px;
-}
+.infobox img { width: 100%; border-radius: 12px; }
 
-h1, h2 {
-  color: #ff4d6d;
+h1, h2 { color: #ff4d6d; }
+
+/* صورة الذكاء */
+.smart-img {
+  float: right;
+  width: 200px;
+  margin: 0 15px 15px 0;
+  border-radius: 12px;
+  border: 2px solid #ffccd5;
 }
 
 /* القلوب */
@@ -54,6 +54,7 @@ h1, h2 {
   font-weight: bold;
   animation: floatUp 6s linear forwards;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 @keyframes floatUp {
@@ -69,7 +70,6 @@ h1, h2 {
   color: #ff3366;
   animation: floatMsg 5s linear forwards;
 }
-
 @keyframes floatMsg {
   0% { transform: translateY(0); opacity: 0; }
   10% { opacity: 1; }
@@ -78,13 +78,11 @@ h1, h2 {
 }
 </style>
 </head>
-
 <body>
 
 <div class="header">💖 قصة حب ما تنتهي 💖</div>
 
 <div class="content">
-
 <h1>ملاك</h1>
 
 <div class="infobox">
@@ -94,55 +92,75 @@ h1, h2 {
 </div>
 
 <p>
-ملاك مو مجرد بنت في حياتي… هي الشيء اللي غيرني بالكامل.
-أنا سعد، ومن يوم عرفتها وأنا أشوف الدنيا أجمل 💕
+ملاك مو مجرد بنت… هي أجمل شيء صار في حياتي أنا سعد.  
+من يوم عرفتها وأنا أشوف الدنيا بألوان مختلفة، ضحكتها تنسيني أي هم، ونظرتها مليانة ثقة وهدوء يخلوني أحبها أكثر كل يوم.
 </p>
 
 <h2>جمالها</h2>
 <p>
-جمالها يفوق أي كلام… هي فعلاً "جمال العالم كله".
-ضحكتها لحالها تخلي قلبي يطير، ونظرتها كلها ثقة وهدوء.
+جمالها يفوق كل الكلام، ملامحها دقيقة ومتناسقة، كل حركة فيها تلفت الانتباه بطريقة طبيعية.  
+ضحكتها لحالها تملك القدرة على إشراق اليوم كله، ونظرتها تكفي لتخلي القلب يخفق من الفرحة.
 </p>
 
-<h2>ذكائها وثقتها</h2>
+<h2>ذكائها</h2>
+<img src="smart.jpg" class="smart-img" alt="صورة ملاك الذكاء">
 <p>
-ملاك ذكية وفاهمة كل شيء حواليها… طريقة تفكيرها، كلامها، أسلوبها، كله يدل على أنها مميزة.
-وهي واثقة بنفسها بطريقة تلهم أي شخص يعرفها.
+ذكاء ملاك شيء غير طبيعي… مو بس معلومات أو حفظ، ذكاءها يظهر في تصرفاتها وفهمها العميق لكل موقف.  
+تستطيع حل أي مشكلة بطريقة هادئة، وتفكر بخطوات دقيقة قبل اتخاذ أي قرار.  
+هي ذكية في كل شيء: في كلامها، في اهتمامها بالآخرين، وحتى في طريقة رؤيتها للحياة.  
+ذكاؤها يرفع من قيمة كل لحظة معها، ويجعل أي شخص يقف مندهش أمام قدرتها على الموازنة بين الحب، الحياة، والطموح.
+</p>
+
+<h2>ثقتها بنفسها</h2>
+<p>
+ملاك قوية واثقة بنفسها… تعرف قيمتها وتستحق كل شيء جميل في الحياة.  
+أنا أشوف فيها شيء كبير جدًا، شيء ما تتخيله أحيانًا، وأنا دايمًا أحاول أرفع من ثقتها بحبنا وبقدرتها على أي شيء.
 </p>
 
 <h2>دلعها واهتمامها</h2>
 <p>
-دلعها واهتمامها عليّ مش أي حد يحس فيه… تحسسني إني أهم شخص عندها 😍
+دلعها عليّ شيء مميز… أسلوبها بالكلام، اهتمامها اليومي، سؤالها عني، كلها أشياء تخلي قلبي يذوب.  
+كل لحظة معاها أحس إني أهم شخص في حياتها، وهذا شعور لا يُقارن.
 </p>
 
 <h2>حبي لها</h2>
 <p>
-أنا أحبها، أهيم فيها، وأؤمن بها… وجودها معايا نعمة حقيقية.
+أنا أحب ملاك… حب كبير، حب عميق، حب يخليني أهيم فيها أكثر كل يوم.  
+وجودها نعمة، وكل لحظة معها ذكرى لا تنسى ❤️
 </p>
 
 <h2>رسالة أخيرة</h2>
 <p>
-يا ملاك… أحبك من كل قلبي ❤️  
-أنتِ أجمل شيء صار لي، وأتمنى أظل أقدّرك وأحبك كل يوم.  
-وجودك بحياتي يخليني أحس بالسعادة والأمان، وأهيم فيك أكثر مما تتخيلي.
+يا ملاك… أحبك من كل قلبي. أنتِ مو بس حبيبة، أنتِ روحي، أنتِ كل شيء جميل في حياتي.  
+أهيم فيك، أقدّرك، وأؤمن بك، وسأقف دائمًا بجانبك مهما صار.  
+وجودك معي يجعلني أفضل، ويجعل حياتي مليئة بالسعادة والأمل.  
+أنا أحبك أكثر مما تتخيلين، وأهيم فيك أكثر مع كل لحظة تمر ❤️
 </p>
 
 </div>
 
 <script>
-// إنشاء قلوب متصاعدة بألوان وأحجام مختلفة
 window.addEventListener("load", function() {
 
   const colors = ["#ff4d6d","#ff66a3","#ff99c9","#ff3366","#ff1a75"];
   const messages = ["أحبك 💖","أهيم فيك ❤️","أنتِ قلبي 💕","أنتِ أجمل شيء 🌹"];
 
-  function createHeart() {
+  function createHeart(size=20, left=null) {
     const heart = document.createElement("div");
     heart.classList.add("heart");
     heart.innerHTML = "❤️";
-    heart.style.left = Math.random() * 100 + "vw";
-    heart.style.fontSize = (15 + Math.random() * 25) + "px";
+    heart.style.left = (left !== null ? left : Math.random() * 100) + "vw";
+    heart.style.fontSize = (size + Math.random()*20) + "px";
     heart.style.color = colors[Math.floor(Math.random()*colors.length)];
+
+    heart.onclick = function() {
+      // انفجار القلب إلى قلوب صغيرة
+      for(let i=0; i<5; i++) {
+        createHeart(10, parseFloat(heart.style.left) + Math.random()*10-5);
+      }
+      heart.remove();
+    };
+
     document.body.appendChild(heart);
     setTimeout(() => heart.remove(), 6000);
   }
@@ -156,8 +174,9 @@ window.addEventListener("load", function() {
     setTimeout(() => msg.remove(), 5000);
   }
 
-  setInterval(createHeart, 200); // سرعة القلوب
-  setInterval(createLoveMsg, 2000); // ظهور رسائل الحب
+  setInterval(() => createHeart(), 200); // قلوب مستمرة
+  setInterval(() => createLoveMsg(), 2000); // رسائل الحب
+
 });
 </script>
 
