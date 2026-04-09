@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
@@ -35,72 +35,62 @@ body {
   border-radius: 12px;
 }
 .infobox img { width: 100%; border-radius: 12px; }
-
 h1, h2 { color: #ff4d6d; }
-
 /* صورة الذكاء */
 .smart-img {
-  float: right;
-  width: 200px;
-  margin: 0 15px 15px 0;
-  border-radius: 12px;
-  border: 2px solid #ffccd5;
+float: right;
+width: 200px;
+margin: 0 15px 15px 0;
+border-radius: 12px;
+border: 2px solid #ffccd5;
 }
-
 /* القلوب */
 .heart {
-  position: fixed;
-  bottom: -20px;
-  font-weight: bold;
-  animation: floatUp 6s linear forwards;
-  opacity: 0.8;
-  cursor: pointer;
+position: fixed;
+bottom: -20px;
+font-weight: bold;
+animation: floatUp 6s linear forwards;
+opacity: 0.8;
+cursor: pointer;
 }
-
 @keyframes floatUp {
-  0% { transform: translateY(0) scale(1); opacity: 0.8; }
-  50% { transform: scale(1.3); }
-  100% { transform: translateY(-110vh) scale(1.5); opacity: 0; }
+0% { transform: translateY(0) scale(1); opacity: 0.8; }
+50% { transform: scale(1.3); }
+100% { transform: translateY(-110vh) scale(1.5); opacity: 0; }
 }
-
 /* رسائل الحب الصغيرة */
 .love-message {
-  position: fixed;
-  font-size: 16px;
-  color: #ff3366;
-  animation: floatMsg 5s linear forwards;
+position: fixed;
+font-size: 16px;
+color: #ff3366;
+animation: floatMsg 5s linear forwards;
 }
 @keyframes floatMsg {
-  0% { transform: translateY(0); opacity: 0; }
-  10% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { transform: translateY(-80vh); opacity: 0; }
+0% { transform: translateY(0); opacity: 0; }
+10% { opacity: 1; }
+90% { opacity: 1; }
+100% { transform: translateY(-80vh); opacity: 0; }
 }
 </style>
 </head>
 <body>
-
 <div class="header">💖 قصة حب ما تنتهي 💖</div>
-
 <div class="content">
 <h1>ملاك</h1>
-
 <div class="infobox">
+  <img src="your-image.jpg" alt="صورة ملاك">
   <p><b>الاسم:</b> ملاك</p>
   <p><b>تاريخ البداية:</b> 28/12/2025</p>
 </div>
-
 <p>
 ملاك مو مجرد شخص عادي… هي أجمل شي صار في حياتي (عشيقها سعد) .  
 من يوم عرفتها وأنا أشوف الدنيا بألوان مختلفة، ضحكتها تنسيني أي هم، ونظرتها مليانة امان وهدوء يخلوني أحبها أكثر كل يوم.
 </p>
-
 <h2>جمالها</h2>
 <p>
 جمالها يفوق كل الكلام، ملامحها دقيقة ومتناسقة، كل حركة فيها تلفت الانتباه بطريقة عجيبه جدن .  
 ضحكتها لحالها تملك القدرة على إشراق اليوم كله (حقيقي) ، ونظرتها تكفي تجيبلي خفقان من الفرحة.
 </p>
-
 <h2>ذكائها</h2>
 <img src="smart.jpg" class="smart-img" alt="صورة ملاك الذكاء">
 <p>
@@ -109,25 +99,21 @@ h1, h2 { color: #ff4d6d; }
 هي ذكية في كل شيء (حرفياً) : في كلامها، في اهتمامها فيني، وحتى في طريقة رؤيتها للحياة (بس تبغا حبل).  
 ذكائها يرفع من قيمة كل لحظة معها، ويجعل أي شخص يقف مندهش أمام قدرتها (حتى اللي طاحت على راسه تفاحه).
 </p>
-
 <h2>ثقتها بنفسها</h2>
 <p>
 ملاك قوية واثقة بنفسها… تعرف قيمتها وتستحق كل شيء جميل في الحياة (زيي انا).  
 أنا أشوف فيها شيء كبير جدًا، شيء ما تتخيله أحيانًا، و دايمًا أحاول أرفع من ثقتها بحبنا وبقدرتها على أي شيء👅👅.
 </p>
-
 <h2>دلعها واهتمامها</h2>
 <p>
 دلعها عليا شيء مميز… أسلوبها بالكلام، اهتمامها اليومي، سؤالها عني، كلها أشياء تخلي قلبي يذوب (مرات تصرعني).  
 كل لحظة معاها أحس إني أهم شخص في الحياه، وهذا شعور لا يُقاوم جدن.
 </p>
-
 <h2>حبي لها</h2>
 <p>
 احبك ملاكي… حب كبير جدن، حب عميق بغبغبغبغبغ (غرقت ههه) ، حب يخليني أهيم فيك كليوم اكثر من اللي قبله.  
 وجودك نعمة وكل لحظة معاك تكّون ذكرى مخلده للأبد مانقدر ننساها ❤️ (معرف اعيش بدونك بلز نو بوري)
 </p>
-
 <h2>رسالة أخيرة</h2>
 <p>
                          ملاكي… أحبك من كل قلبي. أنتِ مو بس حبيبة، أنتِ روحي، أنتِ كل شيء جميل في حياتي.  
@@ -135,9 +121,7 @@ h1, h2 { color: #ff4d6d; }
                                                وجودك معايا يخليني أفضل، ويخلي حياتي مليئة بالسعادة والأمل.  
                                       انا احبك أكثر مما تتخيلين، وأهيم فيك أكثر مع كل لحظة تمر ولا تمن ههه ❤️
 </p>
-
 </div>
-
 <script>
 window.addEventListener("load", function() {
 
@@ -174,10 +158,8 @@ window.addEventListener("load", function() {
   }
 
   setInterval(() => createHeart(), 200); // قلوب مستمرة
-  setInterval(() => createLoveMsg(), 200); // رسائل الحب
+  setInterval(() => createLoveMsg(), 2000); // رسائل الحب
 
 });
-</script>
-
 </body>
 </html>
