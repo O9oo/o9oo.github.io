@@ -68,13 +68,13 @@ h1, h2 { color: #ff4d6d; }
   position: fixed;
   font-size: 16px;
   color: #ff3366;
-  animation: floatMsg 5s linear forwards;
+  animation: floatMsg 12s linear forwards; /* مدة أطول */
 }
 @keyframes floatMsg {
   0% { transform: translateY(0); opacity: 0; }
   10% { opacity: 1; }
   90% { opacity: 1; }
-  100% { transform: translateY(-80vh); opacity: 0; }
+  100% { transform: translateY(-110vh); opacity: 0; } /* ارتفاع أكبر */
 }
 </style>
 </head>
@@ -170,12 +170,11 @@ window.addEventListener("load", function() {
     msg.innerHTML = messages[Math.floor(Math.random()*messages.length)];
     msg.style.left = Math.random() * 80 + "vw";
     document.body.appendChild(msg);
-    setTimeout(() => msg.remove(), 5000);
+    setTimeout(() => msg.remove(), 12000); // نفس مدة الحركة
   }
 
   setInterval(() => createHeart(), 200); // قلوب مستمرة
-  setInterval(() => createLoveMsg(), 2000); // رسائل الحب
-
+  setInterval(() => createLoveMsg(), 2500); // رسائل الحب
 });
 </script>
 
